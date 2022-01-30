@@ -1,0 +1,38 @@
+{
+  "name": "woo-format",
+  "version": "0.0.1",
+  "description": "formatage divers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woopear/woopear_svelte-sveltekit_package/format_sveltekit"
+  },
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc -p tsconfig-cjs.json && tsc -p tsconfig.json && node ./postbuild.mjs",
+    "dev": "tsc -w",
+    "test": "loadr -- uvu tests",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "rimraf": "^3.0.2"
+  },
+  "keywords": [
+    "format",
+    "woopear",
+    "form",
+    "string"
+  ],
+  "author": "woopear <woopears@gmail.com>",
+  "license": "MIT"
+}
