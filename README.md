@@ -7,7 +7,9 @@
 
 > rien de plus simple creer un nouveau dossier  
 > et respectez le nommage, le dossier doit avoir le format suivant  
-> `woo-votrenomdepackage`
+> `woo-votrenomdepackage`  
+> NOTE : le package `eslint-config-woopear` n'est pas nommé de la meme manière  
+> pour une question de compatibilité, il doit etre nommé de cette façon.
 
 ## woo-format
 

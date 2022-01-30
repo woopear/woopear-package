@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-woopear",
+  "version": "1.0.7",
+  "description": "",
+  "license": "ISC",
+  "author": "woopear <woopears@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "woopear",
+    "eslint",
+    "linter",
+    "eslintconfig"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": ">=5",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-prettier": ">=3",
+    "@typescript-eslint/eslint-plugin": ">=4",
+    "@typescript-eslint/parser": ">=4"
+  },
+  "peerDependencies": {
+    "eslint": ">=5",
+    "eslint-plugin-html": ">=6",
+    "eslint-plugin-css-modules": ">=2",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-prettier": ">=3",
+    "@typescript-eslint/eslint-plugin": ">=4",
+    "@typescript-eslint/parser": ">=4"
+  }
+}
