@@ -12,4 +12,5 @@
 ## woo-format
 
 > package contenant des fonctions de filtres ou  
-> de different dispositif de formatage de données
+> de different dispositif de formatage de données  
+> `npm i woo-format`
