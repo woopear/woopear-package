@@ -7,7 +7,7 @@
 
 > rien de plus simple creer un nouveau dossier  
 > et respectez le nommage, le dossier doit avoir le format suivant  
-> `woo-votrenom`
+> `woo-votrenomdepackage`
 
 ## woo-format
 
