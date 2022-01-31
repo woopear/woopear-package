@@ -16,3 +16,8 @@
 > package contenant des fonctions de filtres ou  
 > de different dispositif de formatage de données  
 > `npm i woo-format`
+
+## eslint-config-woo
+
+> package contenant le linter de woopear  
+> `npm i eslint-config-woo`
