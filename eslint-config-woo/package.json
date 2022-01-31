@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-woopear",
-  "version": "1.0.7",
+  "name": "eslint-config-woo",
+  "version": "1.0.8",
   "description": "",
   "license": "ISC",
   "author": "woopear <woopears@gmail.com>",
@@ -14,7 +14,7 @@
     "eslintconfig"
   ],
   "files": [
-    "index.js"
+    "src/index.js"
   ],
   "devDependencies": {
     "eslint": ">=5",
